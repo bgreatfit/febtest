@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+body {
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+p {
+	color:red;
+}
+.mylink{
+	padding: 10px;
+color: #ffffff!important;
+background: #EF1143;
+border: 1px solid #F2152F;
+border-radius: 3px;
+margin: 30px;
+font-size: 24px;
+}
+@media screen and (max-width:540px){
+   
+
+ .grid li{
+width:45%;
+
+
+}
+
+}
+@media  (min-width: 541px) and (max-width: 800px){
+
+   .grid li{
+width:45%;
+float: left;
+margin: 5px !important;
+}
+.grid li .link{
+
+	display:block !important;
+	padding-left: -100px !important;
+
+} 
+
+.grid li a h3,h4,p{
+
+	text-align: center;
+	padding-left: -20px;
+}
+.grid li a img{
+	width: 100% !important;
+	position: relative;
+	float: none;
+	max-width: 100;
+	padding-left: -100px;
+}
+
+
+
+}
+
+}
